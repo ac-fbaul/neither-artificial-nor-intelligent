@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>Neither Artificial nor Intelligent Program</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="hud screen">
+    <h1 class="title tag" id="title" data-depth="1">Neither Artificial nor Intelligent</h1>
+    <button class="info-button" id="about-button" type="button" aria-label="About the project" aria-expanded="false" aria-controls="about" data-depth="1">
+      <svg viewBox="0 0 22 22" aria-hidden="true">
+        <circle cx="11" cy="11" r="10.15"/>
+        <rect x="10.05" y="5.4" width="1.9" height="1.8"/>
+        <rect x="10.05" y="8.3" width="1.9" height="8.2"/>
+      </svg>
+    </button>
+    <p class="percentage" id="percentage" aria-hidden="true" data-depth="1.5">100</p>
+  </header>
+
+  <main class="viewport screen" id="viewport">
+    <div class="sheet backdrop" id="backdrop" aria-hidden="true"></div>
+    <div class="art layer" aria-hidden="true" data-depth="-6"><img id="art" alt=""></div>
+    <div class="grain layer" id="grain" aria-hidden="true"></div>
+    <div class="grain coarse layer" id="grain-coarse" aria-hidden="true"></div>
+
+    <div class="sheet" id="page">
+      <aside class="rail" id="rail" aria-hidden="true" data-depth="9">
+        <span class="ruler" id="ruler"></span>
+      </aside>
+
+      <article class="quotes" id="quotes" data-depth="5"></article>
+
+      <figure class="figure" id="figure" data-depth="7">
+        <img class="figure-image layer" id="figure-image" alt="">
+        <span class="figure-noise layer" id="figure-noise"></span>
+        <figcaption class="figure-caption">
+          <p class="figure-label tag"><span id="figure-number"></span><span id="figure-name"></span></p>
+          <p class="figure-description" id="figure-description"></p>
+          <a class="figure-link" id="figure-link" target="_blank" rel="noopener noreferrer"></a>
+        </figcaption>
+      </figure>
+    </div>
+  </main>
+
+  <section class="about screen" id="about" role="dialog" aria-modal="true" aria-labelledby="about-title" tabindex="-1">
+    <h2 class="sr-only" id="about-title">About the project</h2>
+
+    <article class="panel" data-depth="6">
+      <blockquote class="panel-quote">
+        <p>"Artificial intelligence is neither artificial nor intelligent. Rather, artificial intelligence is both embodied and material, made from natural resources, fuel, human labor, infrastructures, logistics, histories, and&nbsp;classifications."</p>
+        <cite>(Crawford, 2021)</cite>
+      </blockquote>
+
+      <section class="references">
+        <h3>Based on:</h3>
+        <ul>
+          <li>Computer Power and Human Reason – Joseph Weizenbaum, 1976</li>
+          <li>Surveillance and Capture: Two Models of Privacy – Philip E. Agre, 1994</li>
+          <li>Crawford, Kate. 2021 Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence. New Haven, London: Yale University Press.</li>
+          <li>Chun, Wendy. 2021. Discriminating Data: Correlation, Neighborhoods, and the New Politics of Recognition. Cambridge, Massachusetts: The MIT Press.</li>
+        </ul>
+      </section>
+
+      <img class="panel-image" id="panel-image" src="images/KateCrawford-Info.jpg" width="1000" height="1503" alt="Project illustration">
+    </article>
+
+    <footer class="credits" data-depth="6">
+      <dl>
+        <dt>Author:</dt>
+        <dd>Afonso&nbsp;Casaca</dd>
+      </dl>
+      <dl>
+        <dt>Project Advisors:</dt>
+        <dd>Prof.&nbsp;Luísa&nbsp;Ribas</dd>
+        <dd>Prof.&nbsp;Eva&nbsp;Gonçalves</dd>
+        <dd>Prof.&nbsp;Sara&nbsp;Orsi</dd>
+      </dl>
+      <dl>
+        <dt>Disciplines:</dt>
+        <dd>Project&nbsp;I</dd>
+        <dd>Laboratory&nbsp;I</dd>
+      </dl>
+      <p>Master’s in Communication&nbsp;Design<br>Faculty of Fine Arts,<br>University of&nbsp;Lisbon<br>2026/27</p>
+    </footer>
+  </section>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
